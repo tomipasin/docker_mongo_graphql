@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  frontend:
+    image: tomipasin/front:latest
+    ports:
+      - 3000:3000
+  backend:
+    image: tomipasin/back:latest
+    ports:
+      - 5000:5000
