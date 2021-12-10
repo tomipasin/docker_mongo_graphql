@@ -10,7 +10,7 @@ Requerimentos para testar:
 
 Clonar o repositório e executar `docker-compose up`.
 
-* Backend: http://localhost:5000/graphiql
+* Backend: http://localhost:5000/graphql
 * Frontend: http://localhost:3000/
 
 ## Queries e Mutations
