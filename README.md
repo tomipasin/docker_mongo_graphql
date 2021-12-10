@@ -3,6 +3,11 @@ API simples para criar, guardar e ler dados de alunos.
 Criados containers docker para o backend e para o frontend além do uso de docker compose para gerenciar os containers.
 
 ## Como testar?
+
+Requerimentos para testar:
+- Docker
+- Docker Compose
+
 Clonar o repositório e executar `docker-compose up`.
 
 * Backend: http://localhost:5000/graphiql.
@@ -71,5 +76,15 @@ No front utilizei o Apollo e ReactJS.
 O App.js atua de uma única forma atualmente: Ao ser carregado ele dispara a função do Apollo que faz a requisição para o backend utilizando a query students. Ao receber os dados organiza e renderiza os alunos.
 
 É necessário ainda que implemente um form para consulta e ajuste as queries para aceitarem como argumento tanto o nome quanto o cpf ou email. 
+
+
+## Stack
+* Docker
+* Docker Compose
+* MongoDB Atlas
+* Apollo
+* ReactJS
+* NodeJS
+* Express
 
 
