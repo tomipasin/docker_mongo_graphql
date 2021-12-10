@@ -24,7 +24,7 @@ app.use(
 Conexão com o banco de dados MongoDB é feita aqui com o mongoose. 
 Em produção separaria a parte de conexão do banco de dados em  um arquivo separado.
 */
-const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@mflix.nopvf.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
+const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_DB}.nopvf.mongodb.net/${process.env.MONGO_COLLECTION}?retryWrites=true&w=majority`
 const options = { useNewUrlParser: true, useUnifiedTopology: true }
 mongoose
     .connect(uri, options)

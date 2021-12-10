@@ -1,7 +1,8 @@
 {
     "env": {
-        "MONGO_USER": "descomplica",
-        "MONGO_PASSWORD": "2gqbo0k1xLmFta1e",
-        "MONGO_DB": "desc_alunos"
+        "MONGO_USER": "[seu usuário]",
+        "MONGO_PASSWORD": "[sua senha]",
+        "MONGO_COLLECTION": "[sua coleção]",
+        "MONGO_DB": "[seu banco de dados]"
     }
 }
